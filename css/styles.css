@@ -9,15 +9,32 @@ h1{
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
+  color: #66BFBF;
 }
 
 h2{
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
+  color: #66BFBF;
 }
 
 h3{
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
+  line-height: 7;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+hr{
+  width: 10%;
+  border-style: dotted none none;
+  border-color: #EAF6F6;
+  border-width: 8px;
 }
 
 .top-container{
@@ -31,7 +48,7 @@ h3{
 }
 
 .bottom-container{
-
+  background-color: #66BFBF;
 }
 
 .top-cloud{
@@ -44,4 +61,41 @@ h3{
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+.profile{
+  width: 50%;
+  margin: 0 auto 0 auto;
+  line-height: 2;
+}
+
+.profile-photo{
+  margin-top: 30px;
+}
+
+.about-me{
+  font-weight: normal;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.webdevphoto{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.footerlink{
+  float: left;
+  margin: 0 auto 0 auto;
+}
+
+.footer-description{
+  margin: 0 auto 0 auto;
+  line-height: 2;
 }
